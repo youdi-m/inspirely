@@ -1,8 +1,8 @@
 import random   #import module to use random function
 
-number = random.randint(0,9)    #assigning number to a number between 1 and 10
+number = random.randint(1,10)    #assigning number to a number between 1 and 10
 
-while(True):    #while loop keeps running until we break out fo it
+while(True):    #while loop keeps running until we break out of it
     guess = input("Please chose a number between 1 and 10\n")   #assigning guess variable to what the user inputs
 
     if(int(guess) < number):    #if guess is too low print too low
